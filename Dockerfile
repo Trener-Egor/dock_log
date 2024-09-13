@@ -8,4 +8,4 @@ COPY . /DOCKLOG
 
 RUN mkdir build && cd build && cmake .. && make
 
-CMD ["./dock_log"]
+CMD ["./build/dock_log"]
